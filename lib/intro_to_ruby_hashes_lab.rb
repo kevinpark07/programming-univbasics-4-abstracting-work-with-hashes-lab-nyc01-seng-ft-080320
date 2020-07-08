@@ -5,12 +5,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-hash = {}
-if hash[:name]
-  puts hash[:name]
-else
-  puts nil 
-end
+{hash [key]}
 end
 
 def update_counting_hash(hash, key)
