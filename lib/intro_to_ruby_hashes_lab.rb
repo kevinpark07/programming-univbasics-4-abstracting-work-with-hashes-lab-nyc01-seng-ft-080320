@@ -7,7 +7,7 @@ end
 def read_from_hash(hash, key)
 hash = {}
 if hash[:name]
-  puts hash[key]
+  puts hash[:name]
 else
   puts nil 
 end
